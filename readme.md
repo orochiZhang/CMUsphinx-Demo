@@ -18,7 +18,9 @@ Sphinx3 — 为语音识别研究用C语言编写的解码器
 
 CMUclmtk — 语言模型工具
 
-Sphinxtrain — 声学模型训练工具
+Sphinxtrain — 声学模型训练工具  
+
+Acoustic and Language Models / Mandarin — 普通话语音模型
 
 下载网址：http://sourceforge.net/projects/cmusphinx/files/
 
@@ -32,7 +34,9 @@ sphinx3-0.8（sphinx3-0.8.tar.bz2）
 
 cmuclmtk（cmusphinx-cmuclmtk.tar.gz）
 
-SphinxTrain-1.0（SphinxTrain-1.0.tar.bz2）
+SphinxTrain-1.0（SphinxTrain-1.0.tar.bz2）  
+
+Acoustic and Language Models/Mandarin/zh_broadcastnews_16k_ptm256_8000.tar.bz2
 
 实现语音识别只需要pocketsphinx，sphinxbase就ok了
 cmuclmtk，SphinxTrain-1.0是训练语言模型用的，我们是用现成，成熟的普通话语言模型。
