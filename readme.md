@@ -144,11 +144,13 @@ READY....
 解压zh_broadcastnews_ptm256_8000  
 把0506.dic，0506.lm，zh_broadcastnews_ptm256_8000放到 /usr/local/bin/  
 
-在/usr/local/bin/目录下执行  
-pocketsphinx_continuous -hmm zh_broadcastnews_ptm256_8000 -lm 0506.lm -dict 0506.dic  
+在/usr/local/bin/目录下执行
+```
+pocketsphinx_continuous -hmm zh_broadcastnews_ptm256_8000 -lm 0506.lm -dict 0506.dic
+```
 看到ready后说我们的命令就可以识别了。  
 
-最后说两句  
+### 多说两句  
 sphinx语音识别其实是基于统计语言模型的  
 它主要靠language model（lm），Hidden Markov Model（hmm）模型识别语音。  
 
@@ -170,4 +172,9 @@ gcc -o test_ps test_ps.c -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphi
 3，编译完之后运行程序，看到ready后说话即可识别  
 识别的命令就是之前的几个，播放，暂停，停止，上一首，下一首  
 
-##参考文献
+## 参考文献
+[Sphinx武林秘籍](http://www.cnblogs.com/huanghuang/archive/2011/07/14/2106579.html)  
+[Sphinx语音识别学习记录（四）-小范围语音中文识别](http://www.cnblogs.com/yin52133/archive/2012/07/12/2588201.html)  
+[语音识别的基础知识与CMUsphinx介绍](http://blog.csdn.net/zouxy09/article/details/7941585)  
+[PocketSphinx语音识别系统的编程](http://blog.csdn.net/zouxy09/article/details/7978108)  
+[Android平台使用PocketSphinx做离线语音识别，小范围语音99%识别率](http://zuoshu.iteye.com/blog/1463867)  
