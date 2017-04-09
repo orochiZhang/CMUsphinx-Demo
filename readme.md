@@ -123,8 +123,8 @@ READY....
 <s>播放</s>
 <s>暂停</s>
 ```
-保存为command.txt
-在http://www.speech.cs.cmu.edu/tools/lmtool.html上点Browse，提交command.txt，
+保存为command.txt  
+在[Sphinx Knowledge Base Tool](http://www.speech.cs.cmu.edu/tools/lmtool.html)上点Browse，提交command.txt，
 在线生成语言模型文件。这里只要生成的lm文件,命名为0506.lm。
 
 从这里下载pocketsphinx-win32,解压后在/model/lm/zh_cn有个mandarin_notone.dic的文件，
